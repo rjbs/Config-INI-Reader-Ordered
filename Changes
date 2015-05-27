@@ -2,6 +2,9 @@ Revision history for Config-INI-Reader-Ordered
 
 {{$NEXT}}
 
+0.020     2015-05-27 10:34:19-04:00 America/New_York
+          fix descending version number because of tagging change
+
 0.001     2015-05-27 10:32:13-04:00 America/New_York
           repackage to ditch busted Module::Install... by ditching
           Module::Install altogether
