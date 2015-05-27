@@ -2,21 +2,11 @@ use strict;
 
 package Config::INI::Reader::Ordered;
 
+# ABSTRACT: .ini-file parser that returns sections in order
+
 use Config::INI::Reader;
 use vars qw(@ISA $VERSION);
 BEGIN { @ISA = qw(Config::INI::Reader) }
-
-=head1 NAME
-
-Config::INI::Reader::Ordered -- .ini-file parser that returns sections in order
-
-=head1 VERSION
-
-version 0.011
-
-=cut
-
-$VERSION = '0.011';
 
 =head1 SYNOPSIS
 
@@ -59,18 +49,6 @@ C<$array> will contain:
 Config::INI::Reader::Ordered is a subclass of L<Config::INI::Reader> which
 preserves section order.  See L<Config::INI::Reader> for all documentation; the
 only difference is as presented in the L</SYNOPSIS>.
-
-=cut
-
-=head1 METHODS
-
-=head2 change_section
-
-=head2 set_value
-
-=head2 finalize
-
-Overridden to preserve and present section order.
 
 =cut
 

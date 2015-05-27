@@ -1,5 +1,9 @@
 Revision history for Config-INI-Reader-Ordered
 
-0.01    Date/time
-        First version, released on an unsuspecting world.
+{{$NEXT}}
+          repackage to ditch busted Module::Install... by ditching
+          Module::Install altogether
+
+0.01      2008-05-26
+          First version, released on an unsuspecting world.
 
