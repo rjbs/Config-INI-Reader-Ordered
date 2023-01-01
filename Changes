@@ -1,6 +1,7 @@
 Revision history for Config-INI-Reader-Ordered
 
 {{$NEXT}}
+          packaging changes only
 
 0.021     2021-06-20 17:18:35-04:00 America/New_York
           add perl-support to docs
